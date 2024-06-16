@@ -27,9 +27,6 @@ jobs:
         with:
           cache-version: 1
 
-      - name: Render Quarto project
-        run: quarto render
-
       - name: Ensure revealjs theme directory exists
         run: mkdir -p slides_files/libs/revealjs/dist/theme
 
