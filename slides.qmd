@@ -1,0 +1,21 @@
+---
+title: 'Sample Presentation'
+format:
+  revealjs:
+    theme: custom.scss
+---
+
+## Slide 1 {.theme-slide1}
+
+Content for slide 1.
+
+**This** is some [text](https://google.com) and this is some `inline_code`.
+
+```{r}
+print('Hello world!')
+```
+
+## Slide 2
+
+Content for slide 2.
+
