@@ -26,6 +26,9 @@ jobs:
         uses: r-lib/actions/setup-renv@v2
         with:
           cache-version: 1
+
+      - name: Ensure revealjs theme directory exists
+        run: mkdir -p slides_files/libs/revealjs/dist/theme
           
       - name: Copy images to revealjs theme directory
         run: cp -r images/* slides_files/libs/revealjs/dist/theme          
